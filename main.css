@@ -5,11 +5,8 @@
 }
 
 body {
-background-color: rgb(208, 122, 122);
-
+background-color: #ccd5ae;
 }
-
-
 
 .container {
   width:80%;
@@ -19,12 +16,16 @@ background-color: rgb(208, 122, 122);
   height: 90vh;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #fefae0;
+  box-shadow: 10px 5px 5px #bfc8a3;
 }
 
 h1 {
     text-align: center;
     font-family: "Alex Brush" ;
+    color: #d4a373;
+    font-size: 60px;
+    margin: 20px;
     
 }
 
@@ -36,16 +37,27 @@ input {
     width: 70%;
     outline: 0;
     border: 0;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #ccd5ae;
     margin-right: 15px;
+    color: #d4a373;
     font-size: 20px;
+    background-color: #fefae0;
 }
 
-button {
-
+.btn {   
+color: #fefae0;
 width: 100px;
 height: 30px;
 margin-top: 10px;
+background-color: #ccd5ae;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+font-size: 15px;
+}
+
+.btn:hover {
+background-color: #bfc8a3;
 }
 
 .list {
@@ -55,4 +67,26 @@ font-size: 1.5rem;
 
 ul {
     list-style: none;
+}
+
+button {
+width: 80px;
+height: 30px; 
+color: #bfc8a3;
+background-color: #faedcd;
+border: 2px #ccd5ae;
+border-radius: 20px;
+cursor: pointer;
+font-size: 15px;
+margin: 10px;
+}
+
+button:hover {
+background-color: #fefae0;    
+}
+
+
+li {
+color: #d4a373;
+font-size: 20px;  
 }
